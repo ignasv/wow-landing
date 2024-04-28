@@ -11208,7 +11208,7 @@ h2 {
 }
 
 #video {
-  border-radius: 24px;
+  border-radius: 30px;
 }
 
 @mixin flex {
@@ -11236,7 +11236,7 @@ section {
 .outside-border {
   /* Image Used to Display the BG */
   position: relative;
-  width: 212px;
+  width: 206px;
   height: 438px;
   border: 0.6px solid white;
   margin-left: -9px;
