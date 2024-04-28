@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Worlds of Words - Word Association Adventure</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+
+    <!-- Favicon-->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
+      <div class="container d-flex justify-content-center">
+        <a class="navbar-brand" href="index.html"
+          >Worlds of Words - made with &#x2764;&#xFE0F; in &#x1F1F1;&#x1F1F9;</a
+        >
+      </div>
+    </nav>
+    <!-- Page Content-->
+    <section>
+      <div class="wow-container">
+        <div class="wow-center">
+          <section>
+            <div class="outside-border">
+              <div class="silencer"></div>
+              <div class="volume-up"></div>
+              <div class="volume-down"></div>
+              <div class="button-on"></div>
+              <div class="inside-border">
+                <video id="video" autoplay loop muted playsinline>
+                  <source src="assets/landing.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+                <!-- Battery and Signal -->
+
+                <!-- Camera -->
+                <div class="camera">
+                  <div class="camera-dot">
+                    <div class="camera-dot-2"></div>
+                    <div class="camera-dot-3"></div>
+                  </div>
+                  <div class="camera-speaker"></div>
+                </div>
+
+                <div class="t-r-info">
+                  <div class="dots">...</div>
+                  <div class="battery">
+                    <div class="bar"></div>
+                    <div class="dot"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <h1 class="text-white">Worlds of Words</h1>
+        <h2 class="text-white">Word Association Adventure</h2>
+        <button class="button" onclick="handleAppButtonClick()">
+          <img src="assets/apple.svg" alt="Button 1" />
+        </button>
+
+        <script>
+          function handleAppButtonClick() {
+            window.location.href =
+              "https://apps.apple.com/lt/app/worlds-of-words/id6455940842";
+          }
+        </script>
+      </div>
+    </section>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
