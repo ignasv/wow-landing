@@ -11529,3 +11529,11 @@ section {
   border-radius: 2px;
   opacity: 0.8;
 }
+
+#menu-image {
+  position: absolute;
+  height: 430px;
+  border-radius: 28px;
+  padding-left: 4px;
+  width: initial;
+}
