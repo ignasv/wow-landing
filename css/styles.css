@@ -389,6 +389,7 @@ button {
 button img {
   width: 100px; /* Adjust image width */
   height: 100px; /* Adjust image height */
+  margin-top: -16px;
 }
 
 input,
